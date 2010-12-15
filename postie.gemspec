@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.date = %q{2009-05-21}
   s.email = %q{ben.schwarz@gmail.com}
   s.extra_rdoc_files = ["README.md", "LICENSE"]
-  s.files = ["README.md", "VERSION.yml", "lib/models", "lib/models/locality.rb", "lib/models/state.rb", "lib/postie.rb", "test/postcode_test.rb", "test/test_helper.rb", "LICENSE"]
+  s.files = ["README.md", "VERSION.yml", "lib/models", "lib/models/locality.rb", "lib/models/state.rb", "lib/postie.rb", "LICENSE"]
   s.has_rdoc = true
   s.homepage = %q{http://github.com/benschwarz/postie}
   s.rdoc_options = ["--inline-source", "--charset=UTF-8"]

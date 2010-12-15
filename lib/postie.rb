@@ -13,7 +13,7 @@ module Postie
       DataMapper.setup(:postie, "sqlite3://#{File.expand_path(File.join(File.dirname(__FILE__), '..', 'db', 'postcodes.db'))}")
     end
     
-    mime :json, "application/json"
+    mime_type :json, "application/json"
     before { content_type :json }
     
     get '/postcode' do

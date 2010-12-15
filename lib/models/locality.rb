@@ -6,7 +6,7 @@ module Postie
     
     property :id, Serial
     property :name, String
-    property :post_code, String, :nullable => false, :length => 5
+    property :post_code, String, :allow_nil => false, :length => 5
     property :comments, String
     
     belongs_to :state
